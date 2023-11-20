@@ -1,4 +1,4 @@
-// // BT1
+// BT1
 // let arr = [1, 4, 14, 15, 18, 20, 22, 2, 3, 8];
 // let count = 0;
 // for (let i = 0; i < 10; i++) {
@@ -7,3 +7,18 @@
 //     }
 // }
 // console.log("Số lượng số nguyên lớn hơn hoặc bằng 10 là: " + count);
+
+// BT2
+// const integerArray = [5, 12, 8, 25, 3, 17, 10, 15, 7, 20];
+// let maxElement = 0;
+// let maxElementIndex = 0;
+//
+// for (let i = 1; i < integerArray.length; i++) {
+//     if (integerArray[i] > maxElement) {
+//         maxElement = integerArray[i];
+//         maxElementIndex = i;
+//     }
+// }
+//
+// console.log("Giá trị lớn nhất trong mảng là: " + maxElement);
+// console.log("Vị trí của phần tử lớn nhất là: " + maxElementIndex);
