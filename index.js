@@ -45,3 +45,24 @@
 // let sum = integerArray.reduce((acc, num) => acc + num, 0);
 // let average = sum / integerArray.length;
 // alert("Giá trị trung bình của các phần tử trong mảng là: " + average);
+
+//BT4
+// let integerArray = [5, 12, 8, 25, 3, 17, 10, 15, 7, 20];
+// integerArray = integerArray.reverse();
+// alert(integerArray)
+
+//BT5
+// let integerArray = [5, -12, 8, 25, 3, 17, -10, 15, 7, 20];
+// function demSoNguyenAm(mang) {
+//     let soLuongNguyenAm = 0;
+//     for (let i = 0; i < mang.length; i++) {
+//         // Kiểm tra nếu phần tử là số nguyên âm
+//         if (mang[i] < 0) {
+//             soLuongNguyenAm++;
+//         }
+//     }
+//
+//     return soLuongNguyenAm;
+// }
+// let ketQua = demSoNguyenAm(integerArray);
+// console.log("Số lượng số nguyên âm trong mảng là:", ketQua);
